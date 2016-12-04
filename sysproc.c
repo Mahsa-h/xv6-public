@@ -89,3 +89,9 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+/////mine
+void
+sys_getpid(void)
+{
+  printf("pid is: %d", getppid());
+}
