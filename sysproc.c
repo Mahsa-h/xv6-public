@@ -91,7 +91,7 @@ sys_uptime(void)
 }
 /////mine
 void
-sys_getpid(void)
+sys_mygetpid(void)
 {
   printf("pid is: %d", getppid());
 }
